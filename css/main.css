@@ -1,0 +1,1044 @@
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.logoimg-mob {
+	display: none;
+}
+
+.burger {
+	display: none;
+}
+
+.whyweh2-mob {
+	display: none;
+}
+
+.container {
+	width: 1280px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #202020;
+}
+
+.header__inner {
+	display: flex;
+}
+
+.headerbtns {
+	text-decoration: none;
+	color: #202020;
+}
+
+.exbtn-mob {
+	display: none;
+}
+
+.logoimg {
+	margin-right: 662px;
+}
+
+.whyweheader {
+	margin-right: 45px;
+}
+
+.onlinetextul-mob, .telegram-mob, .telegramnick-mob {
+	display: none;
+}
+
+.onlinetextul-mob {
+	max-width: 360px;
+	width: auto;
+	justify-content: center;
+}
+
+.howexheader {
+	margin-right: 45px;
+}
+
+.reviewsheader {
+	margin-right: 45px;
+}
+
+.bestway {
+	display: flex;
+	margin-top: 163px;
+}
+
+.walletimg {
+	margin-left: 165px;
+}
+
+.h1bestway {
+	width: 516px;
+	height: 165px;
+	font-family: 'Arkhip', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 55px;
+	color: #202020;
+	margin-bottom: 54px;
+}
+
+.exbtn {
+	width: 168px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding: 19px 38px 21px;
+	background: #B62FD8;
+	border-radius: 14px;
+}
+
+.whywecontainer {
+	background: url('../img/gradient.jpg') no-repeat center top / cover;
+	padding-top: 45px;
+	padding-left: 70px;
+	margin-top: 133px;
+}
+
+.whywe4blocks {
+	display: flex;
+}
+
+.salyimg-mob {
+	display: none;
+}
+
+.whyweh2 {
+	width: 227px;
+	height: 43px;
+	font-family: 'Arkhip', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.whywe1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 49px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.whywe2 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.whywe3 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#whywe13 {
+	width: 213px;
+	height: 132px;
+}
+
+.Whywe1 {
+	margin-right: 76px;
+}
+
+#whywe23 {
+	width: 205px;
+	height: 66px;
+}
+
+#whywe33 {
+	width: 250px;
+	height: 132px;
+}
+
+.Whywe2 {
+	margin-right: 76px;
+}
+
+.Whywe3 {
+	margin-right: 76px;
+	padding-bottom: 28px;
+}
+
+#whywe43 {
+	width: 240px;
+	height: 110px;
+}
+
+.howexcontainer {
+	margin-top: 147px;
+}
+
+.howexh {
+
+	width: 483px;
+	height: 43px;
+	font-family: 'Arkhip';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #202020;
+	margin-left: 378px;
+
+}
+
+.howexblock {
+	display: flex;
+}
+
+.phone {
+	width: 290px;
+	height: 535px;
+	filter: drop-shadow(4px 4px 30px rgba(83, 84, 216, 0.2));
+	margin-left: 295px;
+	margin-top: 30px;
+}
+
+.howextext {
+	width: 377px;
+	height: 320px;
+	margin-left: 70px;
+	margin-top: 120px;
+}
+
+.howexul {
+	display: flex;
+}
+
+.line {
+	width: 55px;
+	height: 0px;
+	border: 1px solid #B62FD8;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.howextext1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #363636;
+}
+
+#howextext12 {
+	width: 307px;
+	height: 66px;
+	z-index: 9;
+}
+
+#howextext11 {
+	width: 307px;
+	height: 88px;
+	z-index: 9;
+}
+
+
+#howexul1 {
+	margin-bottom: 40px;
+}
+
+#howexul2 {
+	margin-bottom: 40px;
+}
+
+#howextext13 {
+	width: 307px;
+	height: 66px;
+	z-index: 9;
+}
+
+.bgtext {
+	width: 335px;
+	height: 375px;
+	position: absolute;
+	font-family: 'Arkhip', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 98px;
+	line-height: 122px;
+	color: #F3F3F3;
+	margin-top: -360px;
+	z-index: 0;
+	margin-left: 61px;
+}
+
+.underphone {
+	width: 252px;
+	height: 59px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #AE52C3;
+	transform: matrix(1, 0.09, -0.09, 1, 0, 0);
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background: #FFFFFF;
+	border: 1px solid #AE52C3;
+	border-radius: 14px;
+	transform: matrix(1, 0.09, -0.09, 1, 0, 0);
+	align-items: center;
+	position: absolute;
+	margin-left: 210px;
+	margin-top: -51px;
+}
+
+.reviewscontainer {
+	width: 1280px;
+	height: 314px;
+	margin-top: 120px;
+}
+
+.reviewshandread {
+	display: flex;
+}
+
+.reviewsh {
+	margin-left: 557px;
+	width: 166px;
+	height: 43px;
+	font-family: 'Arkhip', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #202020;
+}
+
+.readallrev {
+	margin-left: 393px;
+	margin-top: 15px;
+}
+
+.reviews4 {
+	display: flex;
+	margin-top: 50px;
+}
+
+.nickname {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #363636;
+	margin-bottom: 20px;
+}
+
+.revtext {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #363636;
+}
+
+.revul {
+	width: 290px;
+	height: 226px;
+	background: #F3F3F3;
+	border-radius: 14px;
+	padding: 25px;
+}
+
+.revtext1 {
+	width: 240px;
+	height: 132px;
+}
+
+.revtext2 {
+	width: 240px;
+	height: 132px;
+}
+
+#revul1 {
+	margin-right: 40px;
+}
+
+.revtext3 {
+	width: 240px;
+	height: 131.42px;
+}
+
+#revul2 {
+	margin-right: 40px;
+}
+
+.revtext4 {
+	width: 240px;
+	height: 88px;
+}
+
+#revul3 {
+	margin-right: 40px;
+}
+
+.weonlinecontainer {
+	width: 1053px;
+	margin: 0 auto;
+
+}
+
+.weonlinesalyandtext {
+	display: flex;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(83, 84, 216, 0.2) 0%, rgba(82, 85, 216, 0) 100%);
+	margin-top: 130px;
+	margin-bottom: 75px;
+}
+
+.salyimg {
+	position: relative;
+	margin-left: 20px;
+
+}
+
+.onlinetextul {
+	display: flex;
+	align-items: center;
+}
+
+.onlineh {
+	width: 261px;
+	height: 43px;
+	font-family: 'Arkhip', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #202020;
+}
+
+.telegram, .telegram-mob {
+	width: 102px;
+	height: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #363636;
+	margin-bottom: 53px;
+	margin-top: 15px;
+}
+
+.telegramnick, .telegramnick-mob {
+	width: 131px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #363636;
+	margin-top: 15px;
+	margin-bottom: 53px;
+	margin-left: 4px;
+}
+.telegram-mob, .telegramnick-mob {
+	font-size: 14px;
+}
+
+.writetousbtn {
+	width: 146px;
+	height: 24px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 17px 30px;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background: #B62FD8;
+	border-radius: 14px;
+	margin-top: 53px;
+}
+
+.weonlinetext {
+	margin-left: 34px;
+	margin-right: -30px;
+	margin-top: 150px;
+}
+
+.menuul {
+	display: flex;
+}
+
+@media(max-width: 1300px) {
+	/* .menuul {
+		display: none;
+	} */
+
+	.bestway {
+		display: block;
+	}
+
+	.h1bestway {
+		width: 289px;
+		height: 93px;
+		font-family: 'Arkhip';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 28px;
+		line-height: 31px;
+	}
+
+	.exbtn {
+		display: none;
+	}
+
+	/* .walletimg {
+		display: none;
+	} */
+
+	/* .whywecontainer {
+		display: none;
+	} */
+
+	/* .howexcontainer {
+		display: none;
+	} */
+
+	/* .reviewscontainer {
+		display: none;
+	}
+
+	.weonlinecontainer {
+		display: none;
+	} */
+}
+
+
+
+/* ===========================================MEDIA=================================================== */
+/* ===========================================MEDIA=================================================== */
+
+@media (max-width: 360px) {
+	body {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 50;
+		background: rgba(0, 0, 0, 0.2);
+		visibility: hidden;
+		opacity: 0;
+		transition: all .3s;
+	}
+
+	.overlay--show {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.burger {
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 150;
+		width: 30px;
+		height: 13px;
+		margin: 23px 16px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: end;
+		transition: all .3s;
+	}
+
+	.burger span {
+		display: block;
+		width: 30px;
+		height: 3px;
+		background-color: #202020;
+		margin-top: 7px;
+		background: #202020;
+		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		transition-duration: .25s;
+	}
+
+	.burger::before {
+		content: "";
+		display: block;
+		background-color: #202020;
+		width: 30px;
+		height: 3px;
+		transition-duration: .25s;
+	}
+
+	.header img{
+		padding: 20px 0px 0px 16px;
+	}
+
+	.header {
+		position: fixed;
+		top: 0;
+		background-color: #FFFFFF;
+		z-index: 100;
+		min-width: 360px;
+		transform: translateX(100%);
+		transition: all .3s;
+	}
+
+	.header--open {
+		transform: translateX(0%);
+	}
+
+	.header__inner {
+		flex-direction: column;
+		height: 100%;
+		justify-content: space-between;
+	}
+
+	.logoimg {
+		margin-bottom: 24px;
+	}
+
+	.logoimg-mob {
+		display: block;
+		padding: 20px 0px 0px 16px;
+	}
+
+	.header__inner ul {
+		flex-direction: column;
+	}
+
+	.reviewsheader, .contactsheader {
+		text-align: center;
+		margin-left: 0;
+		max-width: 360px;
+	}
+
+	.menuul {
+		justify-content: center;
+		text-align: center;
+		max-width: 360px;
+		font-size: 16px;
+	}
+
+	.whyweheader, .howexheader, .reviewsheader {
+		margin-right: 0;
+		padding-left: -16px;
+		margin: 0px 0px 0px 0px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		max-width: 360px;
+	}
+
+	.contactsheader {
+		padding-left: -16px;
+		margin: 0px 0px 0px 0px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+	.whyweheader:hover {
+		background: url("/img/Gradient-burg.jpg") no-repeat;
+		transition: all 0.3s;
+	}
+	.howexheader:hover {
+		background: url("/img/Gradient-burg.jpg") no-repeat;
+		transition: all 0.3s;
+
+	}
+	.reviewsheader:hover {
+		background: url("/img/Gradient-burg.jpg") no-repeat;
+		transition: all 0.3s;
+		
+	}
+	.contactsheader:hover {
+		background: url("/img/Gradient-burg.jpg") no-repeat;
+		transition: all 0.3s;
+
+	}
+	
+
+	.onlinetextul-mob, .telegram-mob, .telegramnick-mob {
+		display: inline-block;
+		margin: 0px 0px 0px 0px;
+	}
+	.onlinetextul-mob {
+		margin-left: 59px;
+	}
+	.telegram-mob  {
+		text-align: end;
+		margin-top: 300px;
+		margin-bottom: 40px;
+	}
+	.telegramnick-mob {
+		text-align: start;
+	}
+
+	.bestway {
+		margin: 60px auto 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.bestwaytext {
+		margin-bottom: 26.42px;
+	}
+
+	.h1bestway {
+		text-align: center;
+		display: block;
+		margin: 0px 0px;
+		max-width: 360px;
+		width: auto;
+	}
+
+	.walletimg {
+		width: 337px;
+		margin-left: 11.5px;
+		margin-bottom: 40px;
+	}
+
+	.exbtn-mob {
+		text-align: center;
+		display: block;
+		width: 328px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		color: #FFFFFF;
+		padding: 15px 28px;
+		background: #B62FD8;
+		border-radius: 12px;
+		margin-left: 16px;
+		margin: 0px 0px 60px 16px;
+	}
+
+	.whywecontainer {
+		margin-top: 0;
+		background: url("../img/Gradient-mob.jpg") no-repeat;
+		margin: 0px 16px;
+		padding: 20px 23px 30px 20px;
+	}
+
+	.whywe4blocks {
+		flex-direction: column;
+	}
+
+	.whywe1 {
+		margin: 0px 0px 0px 0px;
+		font-size: 35px;
+		line-height: 140%;
+		font-weight: 400px;
+	}
+
+	.whyweh2 {
+		font-size: 24px;
+		text-align: left;
+		margin-left: 0;
+		margin-bottom: 18px;
+	}
+
+	.whywe3, #whywe13 {
+		width: 285px;
+		margin: 0px 0px 0px 0px;
+	}
+
+	#whywe13 {
+		margin-bottom: 30px;
+	}
+
+	.whywe3 {
+		margin-bottom: 20px;
+	}
+
+	.whywe3 #whywe23 {
+		margin: 0px 0px 0px 0px;
+	}
+
+	#whywe23 {
+		width: 285px;
+		margin-bottom: 30px;
+	}
+
+	.Whywe3 {
+		padding: 0px 0px 30px 0px;
+	}
+
+	#whywe43 {
+		width: 285px;
+	}
+
+	.howexcontainer {
+		margin-top: 30px;
+	}
+
+	.howexblock img {
+		display: none;
+	}
+
+	.underphone {
+		display: none;
+	}
+
+	.howexh {
+		display: block;
+		margin: 0px 0px 0px 0px;
+		font-size: 24px;
+		max-width: 360px;
+		height: 52px;
+		line-height: 110%;
+	}
+
+	.reviewscontainer {
+		margin-top: 0;
+	}
+
+	.bgtext {
+		display: none;
+	}
+
+	.howexblock .howextext {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.howexblock {
+		padding: 0px 16px;
+	}
+
+	.line {
+		width: 40px;
+		margin: 9px 12px 0px 0px;
+	}
+
+	#howextext11, #howextext12, #howextext13 {
+		width: 277px;
+		font-size: 14px;
+	}
+
+	#howexul1, #howexul2 {
+		margin-bottom: 30px;
+	}
+
+	#reviewsanchor {
+		justify-content: center;
+	}
+
+	.reviewsh {
+		display: block;
+		margin: 30px 0px 0px 0px;
+		max-width: 360px;
+		width: auto;
+		font-size: 24px;
+	}
+
+	.reviewshandread {
+		display: block;
+	}
+
+	.readallrev {
+		display: none;
+	}
+
+	.readallrev-mob {
+		display: block;
+		margin-top: 25px;
+		margin: 25px 0px 0px 108px;
+	}
+
+	.reviews4 {
+		margin-top: 30px;
+	}
+
+	#revul2, #revul3, #revul4 {
+		display: none;
+	}
+
+	#revul1 {
+		margin: 0px 16px;
+	}
+
+	.revul {
+		width: 328px;
+		padding: 25px 17px 25px 20px;
+		height: auto;
+	}
+
+	.nickname {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.revtext {
+		font-size: 14px;
+		line-height: 140%;
+	}
+
+	.weonlinesalyandtext {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.weonlinecontainer {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.weonlinetext {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.salyimg {
+		display: none;
+	}
+
+	.salyimg-mob {
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 40px;
+		margin-left: 15px;
+	}
+
+	.onlineh {
+		margin: 60px 0px 16.5px 0px;
+		max-width: 360px;
+		width: auto;
+		font-size: 24px;
+	}
+
+	.onlinetextul {
+		max-width: 360px;
+		width: auto;
+		justify-content: center;
+	}
+
+	.telegram, .telegramnick {
+		margin-bottom: 0;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	.writetousbtn {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.writetousbtn {
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		padding: 15px 28px 13px;
+		border-radius: 12px;
+		width: 328px;
+		height: 57px;
+		margin-bottom: 30px;
+		margin-left: 16px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Arkhip';
+	src: url('../fonts/arkhip.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/arkhip.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/arkhip.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/arkhip.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/arkhip.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/arkhip.svg#arkhip') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
